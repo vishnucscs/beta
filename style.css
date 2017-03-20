@@ -1,0 +1,95 @@
+body {
+    position: static;
+}
+#affix1.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+#affix1.affix ~ .container-fluid {
+   position: relative;
+   top: 50px;
+}
+#Home {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#Gallery {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#Acheivements {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+  }
+.carousel-caption
+  {
+    text-align: right;
+    margin-left: 20%;
+  }
+  .carousel{
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  #affix2.affix {
+      top: 14%;
+  }
+  div.col-sm-10 div {
+      height: 200;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+
+  @media screen and (max-width: 610px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 23%;
+    }
+  }
+  .dropbtn {
+
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: static;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #337ab7;
+}
+footer {
+    padding: 1em;
+    color: #777777;
+    background-color: #e2e2e2;
+    text-align: center;
+    box-shadow: 0px 500px 0px 500px #e2e2e2;
+  }
